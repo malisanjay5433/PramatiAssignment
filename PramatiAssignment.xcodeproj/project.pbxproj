@@ -7,17 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B58E9AA1FD825680076845F /* CountriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B58E9A91FD825680076845F /* CountriesTableViewController.swift */; };
+		9B58E9AC1FD8260E0076845F /* CountryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B58E9AB1FD8260E0076845F /* CountryCell.swift */; };
+		9B58E9AE1FD826C60076845F /* CountryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B58E9AD1FD826C60076845F /* CountryModel.swift */; };
+		9BA3FA4F1FD801A5002386E9 /* File.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BA3FA4E1FD801A5002386E9 /* File.txt */; };
 		9BEC98EB1FD7F37E00BE6D1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEC98EA1FD7F37E00BE6D1A /* AppDelegate.swift */; };
-		9BEC98ED1FD7F37E00BE6D1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEC98EC1FD7F37E00BE6D1A /* ViewController.swift */; };
 		9BEC98F01FD7F37E00BE6D1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BEC98EE1FD7F37E00BE6D1A /* Main.storyboard */; };
 		9BEC98F21FD7F37E00BE6D1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BEC98F11FD7F37E00BE6D1A /* Assets.xcassets */; };
 		9BEC98F51FD7F37E00BE6D1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BEC98F31FD7F37E00BE6D1A /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B58E9A91FD825680076845F /* CountriesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesTableViewController.swift; sourceTree = "<group>"; };
+		9B58E9AB1FD8260E0076845F /* CountryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCell.swift; sourceTree = "<group>"; };
+		9B58E9AD1FD826C60076845F /* CountryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryModel.swift; sourceTree = "<group>"; };
+		9BA3FA4E1FD801A5002386E9 /* File.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = File.txt; sourceTree = "<group>"; };
 		9BEC98E71FD7F37E00BE6D1A /* PramatiAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PramatiAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BEC98EA1FD7F37E00BE6D1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9BEC98EC1FD7F37E00BE6D1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9BEC98EF1FD7F37E00BE6D1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9BEC98F11FD7F37E00BE6D1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BEC98F41FD7F37E00BE6D1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +41,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B58E9B11FD879760076845F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9BEC98EE1FD7F37E00BE6D1A /* Main.storyboard */,
+				9BEC98F31FD7F37E00BE6D1A /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9B58E9B21FD8797C0076845F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9B58E9A91FD825680076845F /* CountriesTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9B58E9B31FD879A30076845F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9B58E9AD1FD826C60076845F /* CountryModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9B58E9B41FD879B70076845F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				9BA3FA4E1FD801A5002386E9 /* File.txt */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		9B58E9B51FD87A0E0076845F /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				9B58E9AB1FD8260E0076845F /* CountryCell.swift */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
 		9BEC98DE1FD7F37E00BE6D1A = {
 			isa = PBXGroup;
 			children = (
@@ -54,11 +101,13 @@
 		9BEC98E91FD7F37E00BE6D1A /* PramatiAssignment */ = {
 			isa = PBXGroup;
 			children = (
+				9B58E9B51FD87A0E0076845F /* CustomCell */,
+				9B58E9B41FD879B70076845F /* Resource */,
+				9B58E9B31FD879A30076845F /* Model */,
+				9B58E9B21FD8797C0076845F /* Controller */,
+				9B58E9B11FD879760076845F /* View */,
 				9BEC98EA1FD7F37E00BE6D1A /* AppDelegate.swift */,
-				9BEC98EC1FD7F37E00BE6D1A /* ViewController.swift */,
-				9BEC98EE1FD7F37E00BE6D1A /* Main.storyboard */,
 				9BEC98F11FD7F37E00BE6D1A /* Assets.xcassets */,
-				9BEC98F31FD7F37E00BE6D1A /* LaunchScreen.storyboard */,
 				9BEC98F61FD7F37E00BE6D1A /* Info.plist */,
 			);
 			path = PramatiAssignment;
@@ -125,6 +174,7 @@
 			files = (
 				9BEC98F51FD7F37E00BE6D1A /* LaunchScreen.storyboard in Resources */,
 				9BEC98F21FD7F37E00BE6D1A /* Assets.xcassets in Resources */,
+				9BA3FA4F1FD801A5002386E9 /* File.txt in Resources */,
 				9BEC98F01FD7F37E00BE6D1A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,8 +186,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BEC98ED1FD7F37E00BE6D1A /* ViewController.swift in Sources */,
+				9B58E9AC1FD8260E0076845F /* CountryCell.swift in Sources */,
+				9B58E9AA1FD825680076845F /* CountriesTableViewController.swift in Sources */,
 				9BEC98EB1FD7F37E00BE6D1A /* AppDelegate.swift in Sources */,
+				9B58E9AE1FD826C60076845F /* CountryModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +327,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V9ECRET98Q;
 				INFOPLIST_FILE = PramatiAssignment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = theiOSDeveloper.PramatiAssignment;
@@ -289,6 +342,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V9ECRET98Q;
 				INFOPLIST_FILE = PramatiAssignment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = theiOSDeveloper.PramatiAssignment;
